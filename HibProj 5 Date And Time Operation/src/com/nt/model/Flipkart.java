@@ -1,28 +1,21 @@
 package com.nt.model;
 
-import java.util.Arrays;
+
 import java.util.Date;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Lob;
-import javax.persistence.Table;
-import javax.persistence.Temporal;
-import javax.persistence.TemporalType;
 
-@Entity
-@Table(name = "Flipkart")
+
 public class Flipkart {
-	@Id
+	
 	private int productID;
 	private String ProductName;
-	@Temporal(TemporalType.DATE)
+	
 	private Date BuyDate;
-	@Temporal(TemporalType.TIME)
+	
 	private Date Delivary;
-	@Temporal(TemporalType.TIMESTAMP)
+	
 	private Date ConFormation;
-	@Lob
+	
 	private byte[] image;
 	@Lob
 	private char[] text;
