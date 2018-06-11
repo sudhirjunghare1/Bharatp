@@ -1,12 +1,7 @@
 package com.nt.bo;
 
 public class StudentBO {
-	@Override
-	public String toString() {
-		return "StudentBO [sno=" + sno + ", sname=" + sname + ", total=" + total + ", avg=" + avg + ", result=" + result
-				+ "]";
-	}
-
+	
 	private int sno;
 	private String sname;
 	private int total;
@@ -52,4 +47,11 @@ public class StudentBO {
 	public void setResult(String result) {
 		this.result = result;
 	}
+	
+	@Override
+	public String toString() {
+		return "StudentBO [sno=" + sno + ", sname=" + sname + ", total=" + total + ", avg=" + avg + ", result=" + result
+				+ "]";
+	}
+
 }
