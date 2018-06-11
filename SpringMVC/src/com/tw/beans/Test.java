@@ -7,7 +7,7 @@ public class Test {
 		System.out.println("1st updated Bharat");
 		
 		System.out.println("1st updated patel");
-		System.out.println("sudhir");
+		System.out.checkError()("sudhir");
 }
 
 }
